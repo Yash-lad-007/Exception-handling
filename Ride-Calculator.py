@@ -10,7 +10,7 @@ def get_distance(location_1, location_2):
 def get_price_per_km(hour):
 
     if (hour > 8) & (hour < 11):
-        price_per_km = 20
+        price_per_km = 20 
     elif (hour > 18) & (hour < 21):
         price_per_km = 15
     else:
